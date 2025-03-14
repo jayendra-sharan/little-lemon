@@ -1,3 +1,6 @@
+# Live URL
+[Little-lemon by Jayendra Sharan](jayendra-little-lemon.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

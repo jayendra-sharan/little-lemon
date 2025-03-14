@@ -14,7 +14,7 @@ import AboutSection from './components/about/AboutSection';
 const toolbarItems = [
 	{
 		name: "Home",
-		href: "/#heroSection"
+		href: "/"
 	},
 	{
 		name: "About",
