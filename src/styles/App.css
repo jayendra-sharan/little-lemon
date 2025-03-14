@@ -1,0 +1,133 @@
+.primaryGreen.background {
+  background-color: #495E57;
+}
+.primaryGreen.text {
+  color: #495E57;
+}
+
+.primaryYellow.background {
+  background-color: #F4CE14;
+}
+.primaryYellow.text {
+  color: #F4CE14;
+}
+
+.highlightWhite.background {
+  background-color: #EDEFEE;
+}
+.highlightWhite.text {
+  color: #EDEFEE;
+}
+
+.secondaryOrange.background {
+  background-color: #EE9972;
+}
+.secondaryOrange.text {
+  color: #EE9972;
+}
+
+.secondaryPink.background {
+  background-color: #FBDABB;
+}
+.secondaryPink.text {
+  color: #FBDABB;
+}
+
+p,
+q {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: "Markazi Text", "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 64px;
+  margin: 0px;
+}
+
+h2,
+.headerMedium {
+  font-family: "Markazi Text", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.cta {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cardTitle {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sectionTitle {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.inputText {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.littleLemon {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 70px 1fr auto;
+  grid-template-columns: 100%;
+  max-width: 100%;
+  color: #333333;
+}
+.littleLemon .mainContent {
+  flex-grow: 1;
+}
+.littleLemon .content {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 1000px) {
+  .littleLemon .content {
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 0px 50px;
+  }
+  .littleLemon .contentStack {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 1000px) {
+  .littleLemon .contentStack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  .littleLemon .content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+}
+.littleLemon .standardTopMargin {
+  margin-top: 75px;
+}
+.littleLemon .backgroundBanner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.littleLemon .shadow {
+  box-shadow: 2px 2px 10px;
+}/*# sourceMappingURL=App.css.map */
