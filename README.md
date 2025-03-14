@@ -1,5 +1,5 @@
 # Live URL
-[Little-lemon by Jayendra Sharan](jayendra-little-lemon.netlify.app)
+[Little-lemon by Jayendra Sharan](https://jayendra-little-lemon.netlify.app)
 
 # Getting Started with Create React App
 
